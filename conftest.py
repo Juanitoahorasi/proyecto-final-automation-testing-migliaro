@@ -5,6 +5,7 @@ from config.settings import BASE_URL
 from utils.driver_factory import create_driver
 from utils.logger import logger
 from utils.screenshot import take_screenshot
+from utils.api_client import ApiClient
 from pages.login_page import LoginPage
 
 try:
@@ -42,6 +43,16 @@ def login_page(driver):
     page = LoginPage(driver)
     page.open()
     return page
+
+
+@pytest.fixture(scope="session")
+def api_client():
+    """
+    Fixture de sesión que provee un cliente de API.
+    Esto evita recrear la instancia en cada test de API.
+    """
+    logger.info("Creating ApiClient for API tests.")
+    return ApiClient()
 
 
 @pytest.hookimpl(hookwrapper=True)

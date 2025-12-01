@@ -1,0 +1,103 @@
+2025-12-01 21:43:35,792 - INFO - automation_tests - Starting WebDriver for test.
+2025-12-01 21:43:37,763 - WARNING - selenium.webdriver.common.selenium_manager - The msedgedriver version (141.0.3537.57) detected in PATH at C:\webdriver\bin\msedgedriver.exe might not be compatible with the detected MicrosoftEdge version (142.0.3595.94); currently, msedgedriver 142.0.3595.94 is recommended for MicrosoftEdge 142.*, so it is advised to delete the driver in PATH and retry
+2025-12-01 21:43:38,965 - INFO - automation_tests - Edge WebDriver created and configured.
+2025-12-01 21:43:38,965 - INFO - automation_tests - Opening login page.
+2025-12-01 21:43:39,605 - INFO - automation_tests - Running test_add_single_product_to_cart.
+2025-12-01 21:43:39,605 - INFO - automation_tests - Attempting login with user 'standard_user'.
+2025-12-01 21:43:39,930 - INFO - automation_tests - Inventory page loaded: True
+2025-12-01 21:43:39,931 - INFO - automation_tests - Adding product to cart: Sauce Labs Backpack
+2025-12-01 21:43:40,043 - INFO - automation_tests - Opening cart page from inventory.
+2025-12-01 21:43:40,136 - INFO - automation_tests - Products currently in cart: ['Sauce Labs Backpack']
+2025-12-01 21:43:40,137 - INFO - automation_tests - Quitting WebDriver for test.
+2025-12-01 21:43:42,286 - INFO - automation_tests - Starting WebDriver for test.
+2025-12-01 21:43:42,374 - WARNING - selenium.webdriver.common.selenium_manager - The msedgedriver version (141.0.3537.57) detected in PATH at C:\webdriver\bin\msedgedriver.exe might not be compatible with the detected MicrosoftEdge version (142.0.3595.94); currently, msedgedriver 142.0.3595.94 is recommended for MicrosoftEdge 142.*, so it is advised to delete the driver in PATH and retry
+2025-12-01 21:43:43,536 - INFO - automation_tests - Edge WebDriver created and configured.
+2025-12-01 21:43:43,536 - INFO - automation_tests - Opening login page.
+2025-12-01 21:43:44,090 - INFO - automation_tests - Running test_remove_product_from_cart.
+2025-12-01 21:43:44,090 - INFO - automation_tests - Attempting login with user 'standard_user'.
+2025-12-01 21:43:44,381 - INFO - automation_tests - Inventory page loaded: True
+2025-12-01 21:43:44,381 - INFO - automation_tests - Adding product to cart: Sauce Labs Backpack
+2025-12-01 21:43:44,552 - INFO - automation_tests - Opening cart page from inventory.
+2025-12-01 21:43:44,632 - INFO - automation_tests - Products currently in cart: ['Sauce Labs Backpack']
+2025-12-01 21:43:44,632 - INFO - automation_tests - Removing product from cart page: Sauce Labs Backpack
+2025-12-01 21:43:54,720 - INFO - automation_tests - Products currently in cart: []
+2025-12-01 21:44:04,768 - INFO - automation_tests - Quitting WebDriver for test.
+2025-12-01 21:44:06,925 - INFO - automation_tests - Starting WebDriver for test.
+2025-12-01 21:44:07,021 - WARNING - selenium.webdriver.common.selenium_manager - The msedgedriver version (141.0.3537.57) detected in PATH at C:\webdriver\bin\msedgedriver.exe might not be compatible with the detected MicrosoftEdge version (142.0.3595.94); currently, msedgedriver 142.0.3595.94 is recommended for MicrosoftEdge 142.*, so it is advised to delete the driver in PATH and retry
+2025-12-01 21:44:08,171 - INFO - automation_tests - Edge WebDriver created and configured.
+2025-12-01 21:44:08,171 - INFO - automation_tests - Opening login page.
+2025-12-01 21:44:08,701 - INFO - automation_tests - Running test_successful_checkout_flow.
+2025-12-01 21:44:08,701 - INFO - automation_tests - Attempting login with user 'standard_user'.
+2025-12-01 21:44:09,035 - INFO - automation_tests - Inventory page loaded: True
+2025-12-01 21:44:09,035 - INFO - automation_tests - Adding product to cart: Sauce Labs Backpack
+2025-12-01 21:44:09,142 - INFO - automation_tests - Adding product to cart: Sauce Labs Bike Light
+2025-12-01 21:44:09,230 - INFO - automation_tests - Opening cart page from inventory.
+2025-12-01 21:44:09,324 - INFO - automation_tests - Products currently in cart: ['Sauce Labs Backpack', 'Sauce Labs Bike Light']
+2025-12-01 21:44:09,324 - INFO - automation_tests - Clicking checkout button on cart page.
+2025-12-01 21:44:09,381 - INFO - automation_tests - Filling checkout information.
+2025-12-01 21:44:09,658 - INFO - automation_tests - Continuing to checkout overview.
+2025-12-01 21:44:09,727 - INFO - automation_tests - Clicking finish button on checkout overview.
+2025-12-01 21:44:09,802 - INFO - automation_tests - Order complete header text: THANK YOU FOR YOUR ORDER!
+2025-12-01 21:44:09,803 - INFO - automation_tests - Quitting WebDriver for test.
+2025-12-01 21:47:59,901 - INFO - automation_tests - Creating ApiClient for API tests.
+2025-12-01 21:47:59,902 - INFO - automation_tests - Running test_create_post_returns_created_resource.
+2025-12-01 21:47:59,902 - INFO - automation_tests - API POST -> https://jsonplaceholder.typicode.com/posts | json={'title': 'Automation test post', 'body': 'This is a test post created by automated tests.', 'userId': 1}
+2025-12-01 21:48:00,882 - INFO - automation_tests - API POST <- status_code=201
+2025-12-01 21:48:00,886 - INFO - automation_tests - Running test_delete_post_returns_success_status.
+2025-12-01 21:48:00,886 - INFO - automation_tests - API DELETE -> https://jsonplaceholder.typicode.com/posts/1
+2025-12-01 21:48:01,405 - INFO - automation_tests - API DELETE <- status_code=200
+2025-12-01 21:51:31,545 - INFO - automation_tests - Starting WebDriver for test.
+2025-12-01 21:51:31,652 - WARNING - selenium.webdriver.common.selenium_manager - The msedgedriver version (141.0.3537.57) detected in PATH at C:\webdriver\bin\msedgedriver.exe might not be compatible with the detected MicrosoftEdge version (142.0.3595.94); currently, msedgedriver 142.0.3595.94 is recommended for MicrosoftEdge 142.*, so it is advised to delete the driver in PATH and retry
+2025-12-01 21:51:32,841 - INFO - automation_tests - Edge WebDriver created and configured.
+2025-12-01 21:51:32,841 - INFO - automation_tests - Opening login page.
+2025-12-01 21:51:33,611 - INFO - automation_tests - Running test_add_single_product_to_cart.
+2025-12-01 21:51:33,611 - INFO - automation_tests - Attempting login with user 'standard_user'.
+2025-12-01 21:51:33,958 - INFO - automation_tests - Inventory page loaded: True
+2025-12-01 21:51:33,958 - INFO - automation_tests - Adding product to cart: Sauce Labs Backpack
+2025-12-01 21:51:34,077 - INFO - automation_tests - Opening cart page from inventory.
+2025-12-01 21:51:34,162 - INFO - automation_tests - Products currently in cart: ['Sauce Labs Backpack']
+2025-12-01 21:51:34,163 - INFO - automation_tests - Quitting WebDriver for test.
+2025-12-01 21:51:36,333 - INFO - automation_tests - Starting WebDriver for test.
+2025-12-01 21:51:36,423 - WARNING - selenium.webdriver.common.selenium_manager - The msedgedriver version (141.0.3537.57) detected in PATH at C:\webdriver\bin\msedgedriver.exe might not be compatible with the detected MicrosoftEdge version (142.0.3595.94); currently, msedgedriver 142.0.3595.94 is recommended for MicrosoftEdge 142.*, so it is advised to delete the driver in PATH and retry
+2025-12-01 21:51:37,787 - INFO - automation_tests - Edge WebDriver created and configured.
+2025-12-01 21:51:37,788 - INFO - automation_tests - Opening login page.
+2025-12-01 21:51:38,480 - INFO - automation_tests - Running test_remove_product_from_cart.
+2025-12-01 21:51:38,480 - INFO - automation_tests - Attempting login with user 'standard_user'.
+2025-12-01 21:51:38,855 - INFO - automation_tests - Inventory page loaded: True
+2025-12-01 21:51:38,856 - INFO - automation_tests - Adding product to cart: Sauce Labs Backpack
+2025-12-01 21:51:38,970 - INFO - automation_tests - Opening cart page from inventory.
+2025-12-01 21:51:39,084 - INFO - automation_tests - Products currently in cart: ['Sauce Labs Backpack']
+2025-12-01 21:51:39,084 - INFO - automation_tests - Removing product from cart page: Sauce Labs Backpack
+2025-12-01 21:51:49,205 - INFO - automation_tests - Products currently in cart: []
+2025-12-01 21:51:59,272 - INFO - automation_tests - Quitting WebDriver for test.
+2025-12-01 21:52:01,473 - INFO - automation_tests - Starting WebDriver for test.
+2025-12-01 21:52:01,573 - WARNING - selenium.webdriver.common.selenium_manager - The msedgedriver version (141.0.3537.57) detected in PATH at C:\webdriver\bin\msedgedriver.exe might not be compatible with the detected MicrosoftEdge version (142.0.3595.94); currently, msedgedriver 142.0.3595.94 is recommended for MicrosoftEdge 142.*, so it is advised to delete the driver in PATH and retry
+2025-12-01 21:52:02,930 - INFO - automation_tests - Edge WebDriver created and configured.
+2025-12-01 21:52:02,930 - INFO - automation_tests - Opening login page.
+2025-12-01 21:52:03,523 - INFO - automation_tests - Running test_successful_checkout_flow.
+2025-12-01 21:52:03,523 - INFO - automation_tests - Attempting login with user 'standard_user'.
+2025-12-01 21:52:03,870 - INFO - automation_tests - Inventory page loaded: True
+2025-12-01 21:52:03,870 - INFO - automation_tests - Adding product to cart: Sauce Labs Backpack
+2025-12-01 21:52:04,001 - INFO - automation_tests - Adding product to cart: Sauce Labs Bike Light
+2025-12-01 21:52:04,088 - INFO - automation_tests - Opening cart page from inventory.
+2025-12-01 21:52:04,198 - INFO - automation_tests - Products currently in cart: ['Sauce Labs Backpack', 'Sauce Labs Bike Light']
+2025-12-01 21:52:04,198 - INFO - automation_tests - Clicking checkout button on cart page.
+2025-12-01 21:52:04,258 - INFO - automation_tests - Filling checkout information.
+2025-12-01 21:52:04,512 - INFO - automation_tests - Continuing to checkout overview.
+2025-12-01 21:52:04,580 - INFO - automation_tests - Clicking finish button on checkout overview.
+2025-12-01 21:52:04,657 - INFO - automation_tests - Order complete header text: THANK YOU FOR YOUR ORDER!
+2025-12-01 21:52:04,657 - INFO - automation_tests - Quitting WebDriver for test.
+2025-12-01 21:52:06,866 - INFO - automation_tests - Starting WebDriver for test.
+2025-12-01 21:52:06,961 - WARNING - selenium.webdriver.common.selenium_manager - The msedgedriver version (141.0.3537.57) detected in PATH at C:\webdriver\bin\msedgedriver.exe might not be compatible with the detected MicrosoftEdge version (142.0.3595.94); currently, msedgedriver 142.0.3595.94 is recommended for MicrosoftEdge 142.*, so it is advised to delete the driver in PATH and retry
+2025-12-01 21:52:08,273 - INFO - automation_tests - Edge WebDriver created and configured.
+2025-12-01 21:52:08,273 - INFO - automation_tests - Opening login page.
+2025-12-01 21:52:09,218 - INFO - automation_tests - Running test_login_success.
+2025-12-01 21:52:09,218 - INFO - automation_tests - Attempting login with user 'standard_user'.
+2025-12-01 21:52:09,520 - INFO - automation_tests - Quitting WebDriver for test.
+2025-12-01 21:52:11,691 - INFO - automation_tests - Starting WebDriver for test.
+2025-12-01 21:52:11,783 - WARNING - selenium.webdriver.common.selenium_manager - The msedgedriver version (141.0.3537.57) detected in PATH at C:\webdriver\bin\msedgedriver.exe might not be compatible with the detected MicrosoftEdge version (142.0.3595.94); currently, msedgedriver 142.0.3595.94 is recommended for MicrosoftEdge 142.*, so it is advised to delete the driver in PATH and retry
+2025-12-01 21:52:12,973 - INFO - automation_tests - Edge WebDriver created and configured.
+2025-12-01 21:52:12,974 - INFO - automation_tests - Opening login page.
+2025-12-01 21:52:13,817 - INFO - automation_tests - Running test_login_invalid_credentials.
+2025-12-01 21:52:13,817 - INFO - automation_tests - Attempting login with user 'standard_user'.
+2025-12-01 21:52:14,153 - INFO - automation_tests - Quitting WebDriver for test.
