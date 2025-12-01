@@ -56,6 +56,39 @@ proyecto-final-automation-testing-migliaro/
 ├── requirements.txt
 └── README.md
 
+Para correr las pruebas del proyecto
+
+Instalar dependencias:
+
+pip install -r requirements.txt
+
+
+Ejecutar solo las pruebas UI:
+
+pytest -m ui --html=reports/ui_report.html --self-contained-html
+
+
+Ejecutar solo las pruebas API:
+
+pytest -m api --html=reports/api_report.html --self-contained-html
+
+
+Ejecutar todas las pruebas del framework:
+
+pytest --html=reports/full_report.html --self-contained-html
+
+
+Los reportes HTML generados aparecerán dentro de la carpeta:
+
+/reports
+
+
+Las capturas de pantalla en caso de errores aparecerán en:
+
+/screenshots
+
+
+
 Instalación y configuración
 
 Clonar el repositorio:
